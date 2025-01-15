@@ -5,7 +5,7 @@ import json
 import time
 import random
 
-#set credentials for topic
+#set credentials for topics 
 KAFKA_TOPIC = 'pokemon'
 KAFKA_BOOTSTRAP_SERVERS = 'localhost:56864'
 REQUEST_URL = "https://pokeapi.co/api/v2/pokemon?limit=1032"
